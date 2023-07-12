@@ -1,0 +1,14 @@
+* {
+  border-radius: 3px;
+  border: none;
+}
+window {
+  font-size: 20px;
+  color: white; 
+  background-color: rgb(50,50,50,0.9);
+}
+
+image{
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
