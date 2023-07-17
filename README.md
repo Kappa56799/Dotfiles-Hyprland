@@ -9,7 +9,7 @@
   
 <h1><p align="center">Currently Using Arch Linux + Wayland and the Following:</p></h1>
 <ul>
-  <li>WM - <a href="https://i3wm.org/">Hyprland</a></li>
+  <li>WM - <a href="https://github.com/hyprwm/Hyprland">Hyprland</a></li>
   <li>IDE - <a href="https://github.com/neovim/neovim">Neovim</a></li>
   <li>Terminal - <a href="https://github.com/kovidgoyal/kitty">Kitty</a></li>
   <li><a href="https://man.archlinux.org/man/wofi.1">Wofi</a></li>
