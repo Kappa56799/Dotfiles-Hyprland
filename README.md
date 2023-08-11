@@ -11,6 +11,7 @@
 <ul>
   <li>WM - <a href="https://github.com/hyprwm/Hyprland">Hyprland</a></li>
   <li>IDE - <a href="https://github.com/neovim/neovim">Neovim</a></li>
+  <li>Widgets - <a href="https://github.com/elkowar/eww">Eww</a></li>
   <li>Terminal - <a href="https://github.com/kovidgoyal/kitty">Kitty</a></li>
   <li><a href="https://man.archlinux.org/man/wofi.1">Wofi</a></li>
   <li><a href="https://github.com/fish-shell/fish-shell">Fish</a></li>
