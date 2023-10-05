@@ -1,0 +1,67 @@
+(defpoll HOUR :interval "60s" "date +%I")
+(defpoll MIN :interval "5s" "date +%M")
+(defpoll AMPM :interval "60s" "date +%p")
+(defpoll DAY :interval "3000s" "date +%A")
+
+(defwidget main []
+  (box :class "bg" :orientation "h" :space-evenly "false")) 
+
+(defwidget subBox []
+  (box :class "subBox" :orientation "h" :space-evenly "false")) 
+
+
+(defwidget timeinfo []
+  (box :orientation "h"
+       :space-evenly false
+       :class "time-parent"
+    (box :orientation "v"
+         :space-evenly false
+         :class "time-child time-child-left" 
+      (box :orientation "h"
+           :space-evenly false
+           :class "time-child time-child-right"
+        (label :text "${HOUR}"
+               :class "time-label time-label-hr")
+        (label :text ":"
+               :class "time-label time-label-sep")
+        (label :text "${MIN}"
+               :class "time-label time-label-min"))
+      (label :text "Today is ${DAY} !"
+             :class "time-label day"
+             :halign "center"))))
+
+(defwindow time
+           :monitor 0
+           :geometry (geometry :x "0px"
+                               :y "0px"
+                               :width "0"
+                               :height "70%"
+                               :anchor "center")
+           :stacking "bg"
+           :windowtype "normal"
+           :wm-ignore true
+  (timeinfo))
+
+ (defwindow subBox
+    :monitor 0
+    :stacking "bg"
+    :geometry (geometry :anchor "center"
+               :width "20%"
+               :height "20%"
+               :x "0px"
+               :y "0px")
+    (subBox))
+
+ (defwindow main
+    :monitor 0
+    :stacking "bg"
+    :geometry (geometry :anchor "top left"
+               :width "26%"
+               :height "20%"
+               :x "0px"
+               :y "100px")
+    (main))
+
+
+
+

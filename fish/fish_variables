@@ -46,4 +46,4 @@ SETUVAR fish_pager_color_selected_background:\x1d
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/kiet/\x2eyarn/bin\x1e/home/kiet/matlab/R2022b/bin\x1e/home/kiet/Android/Sdk/emulator\x1e/home/kiet/\x2elocal/bin\x1e/home/kiet/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/kiet/Android/Sdk/platform\x2dtools
+SETUVAR fish_user_paths:/home/kappa/\x2elocal/bin\x1e/home/kiet/\x2eyarn/bin\x1e/home/kiet/matlab/R2022b/bin\x1e/home/kiet/Android/Sdk/emulator\x1e/home/kiet/\x2elocal/bin\x1e/home/kiet/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/kiet/Android/Sdk/platform\x2dtools

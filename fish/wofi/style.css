@@ -1,0 +1,58 @@
+* {
+    color: #ffffff;
+    width: 100%;
+}
+
+/* Entire Window */
+#window {
+    margin: 5px;
+    background-color: #303446;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+/* Outer-Box */
+#outer-box {
+    opacity: 0.9;
+    margin: 10px;
+}
+
+/* Input Box */
+#input {
+    margin: 5px;
+    background-color: #24273A;
+    border-radius: 5px;
+}
+
+/* Inner Box Where icons etc are */
+#inner-box {
+    margin: 0px;
+    border-radius: 5px;
+    opacity: 0.9;
+    background-color: #24273A;
+}
+
+/* Little Scroll Bar */
+#scroll {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Text */
+#text {
+    margin: 2px;
+    border: none;
+}
+
+
+/* The box which is selected while searching */
+#entry {
+    border: none;
+    border-radius: 5px
+}
+
+#entry:selected {
+    color: #c29df1;
+    background-color: ;
+    border: 2px black solid;
+}

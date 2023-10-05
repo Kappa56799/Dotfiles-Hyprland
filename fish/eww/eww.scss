@@ -1,0 +1,43 @@
+* {
+  all: unset;
+}
+
+.bg {
+  background-color: #1e1e2e;
+  border-radius: 20px;
+  opacity: 0.85;
+
+}
+
+.subBox {
+  background-color:red;
+}
+
+//Time Clock
+.time-parent {
+  margin: 15px 30px 15px 20px;
+}
+
+.time-child-left {
+  padding-top: 5px;
+}
+
+.time-label {
+  font-weight: 700;
+  color: white;
+}
+
+.day {
+  font-size: 30px;
+  color: #b4befe;
+}
+
+.time-label-hr,
+.time-label-min {
+  font-size: 110px;
+}
+
+.time-label-sep {
+  font-size: 80px;
+  padding-bottom: 15px;
+}
